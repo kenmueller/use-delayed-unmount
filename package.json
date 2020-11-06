@@ -1,0 +1,38 @@
+{
+	"name": "use-delayed-unmount",
+	"description": "Delay the unmount of a component to apply an unmount animation",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"types": "types/index.d.ts",
+	"peerDependencies": {
+		"react": "^17.0.1"
+	},
+	"devDependencies": {
+		"react": "^17.0.1"
+	},
+	"keywords": [
+		"react",
+		"delayed unmount",
+		"unmount transition",
+		"transition",
+		"unmount",
+		"hide transition",
+		"show transition",
+		"use delayed unmount"
+	],
+	"homepage": "https://github.com/kenmueller/use-delayed-unmount#readme",
+	"bugs": {
+		"url": "https://github.com/kenmueller/use-delayed-unmount/issues",
+		"email": "kenmueller0@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kenmueller/use-delayed-unmount.git"
+	},
+	"author": {
+		"name": "Ken Mueller",
+		"email": "kenmueller0@gmail.com",
+		"url": "https://github.com/kenmueller"
+	},
+	"license": "MIT"
+}
