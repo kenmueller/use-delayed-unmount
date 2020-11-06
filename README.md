@@ -12,38 +12,38 @@ By delaying the unmounting of a component, you can apply an animation before the
 import useDelayedUnmount from 'use-delayed-unmount'
 
 const Home = () => {
-	const [[isMounted, isUnmounting], setIsMounted] = useDelayedUnmount(false, 300)
-	
-	return (
-		<>
-			<button onClick={() => setIsMounted(!isMounted)}>
-				Toggle
-			</button>
-			{isMounted && (
-				<p className={isUnmounting ? 'hide' : ''}>
-					Hello!
-				</p>
-			)}
-		</>
-	)
+    const [[isMounted, isUnmounting], setIsMounted] = useDelayedUnmount(false, 300)
+    
+    return (
+        <>
+            <button onClick={() => setIsMounted(!isMounted)}>
+                Toggle
+            </button>
+            {isMounted && (
+                <p className={isUnmounting ? 'hide' : ''}>
+                    Hello!
+                </p>
+            )}
+        </>
+    )
 }
 ```
 
 ```css
 p {
-	animation: show 0.3s linear;
+    animation: show 0.3s linear;
 }
 
 .hide {
-	animation: hide 0.3s linear;
+    animation: hide 0.3s linear;
 }
 
 @keyframes show {
-	from { opacity: 0; }
+    from { opacity: 0; }
 }
 
 @keyframes hide {
-	to { opacity: 0; }
+    to { opacity: 0; }
 }
 ```
 
