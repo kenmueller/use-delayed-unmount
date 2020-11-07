@@ -1,7 +1,7 @@
 {
 	"name": "use-delayed-unmount",
 	"description": "Delay the unmount of a component to apply an unmount animation",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "src/index.js",
 	"types": "types/index.d.ts",
 	"peerDependencies": {

@@ -1,3 +1,5 @@
+const { useState, useCallback } = require('react')
+
 const sleep = timeout =>
 	new Promise(resolve => setTimeout(resolve, timeout))
 
